@@ -1,0 +1,130 @@
+/*Add your custom styles here*/
+/*Style*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*
+{
+font-family: 'Open Sans', sans-serif;
+}
+/*------------------------------- Style index.php -------------------------------*/
+
+.starting-title {
+    text-align: center;
+}
+
+#table{
+    width: 100%;
+}
+
+table, td, th{
+  border: 1px solid;  
+  background-color: whitesmoke;
+}
+
+#info {
+background-color: green;
+margin: 0;
+}
+
+ #list td{
+    padding: 10px;
+}
+
+#options {
+    border-radius: 20px;
+    border: 1px solid;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+#options a
+{
+text-decoration: none;
+}
+
+/*------------------------------- Style menu -------------------------------*/
+nav
+{
+    width: 100%;  
+    background-color: #333;
+    margin-bottom: 10px ;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+a {
+      text-decoration: none; 
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  transition-duration: 0.5s;
+}
+
+li a:hover {
+  background-color: green;
+  border-radius: 20px;
+}
+
+/*------------------------------- Style form.php -------------------------------*/
+#form{
+    text-align: center;
+    align-items: center;
+}
+
+#form label{
+    display: grid;
+}
+
+.btn  /*Przycisk "Append" w form.php*/
+{
+display: grid;
+margin: auto;
+margin-top: 30px;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+background-color: #333;
+color: white;
+transition-duration: 0.5s;
+}
+
+.btn:hover /*Przycisk "Append" po najechaniu*/
+{
+color: lightgreen;
+}
+
+.text-danger
+{
+    color: red;
+}
+.text-success
+{
+    color: green;
+}
+
+/*------------------------------- Style mobilne -------------------------------*/
+@media (max-width: 1024px)
+{
+
+p, a, th, td, button, label, input
+{
+ font-size: 12px; 
+}
+
+}
